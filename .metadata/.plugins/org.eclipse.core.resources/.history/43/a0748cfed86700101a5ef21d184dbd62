@@ -1,0 +1,22 @@
+package com.training.basics;
+
+public class TernaryOperator {
+
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 20;
+		String result = (a > b) ? "a is greater" : "b is greater";
+		System.out.println(result);
+		
+		
+		
+		String name="Navya";
+		
+		if(name.equals("Navya")){
+			System.out.println("Welcome "+name);
+		}else {
+			System.out.println("Wrong user!");
+		}
+	}
+
+}

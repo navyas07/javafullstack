@@ -1,0 +1,13 @@
+package com.hotelapp.service;
+
+import java.util.List;
+
+public class Indian implements IRestaurant {
+
+	@Override
+	public List<String> showMenu() {
+		// TODO Auto-generated method stub
+		return List.of("Idly","Dosa","Roti","Curry");
+	}
+
+}

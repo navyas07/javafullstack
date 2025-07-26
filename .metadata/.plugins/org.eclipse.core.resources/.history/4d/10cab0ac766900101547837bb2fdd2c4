@@ -1,0 +1,44 @@
+package com.training.basic;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+public class Greater {
+
+	public static void main(String[] args) {
+		//Greatest in an array
+		int greatestNumber;
+		
+		Scanner sc = new Scanner(System.in);	
+		System.out.println("Please enter 5 numbers ");
+		int num1=sc.nextInt();
+		System.out.println("First number is : "+num1);
+		int num2=sc.nextInt();
+		System.out.println("Second number is : "+num2);
+		int num3=sc.nextInt();
+		System.out.println("Third number is : "+num3);
+		int num4=sc.nextInt();
+		System.out.println("Fourth number is : "+num4);
+		int num5=sc.nextInt();
+		System.out.println("Fifth number is : "+num5);
+
+		int[] array= {num1,num2,num3,num4,num5};
+		
+		System.out.println(array);
+
+		System.out.println("Greatest number is "+greatest(array));;
+
+	}
+
+    static int greatest(int[] array) {
+    	int greater = array[0];
+        for (int i = 1; i < array.length; i++)
+            if (array[i] > greater)
+            	greater = array[i];
+
+        return greater;
+    }
+
+}

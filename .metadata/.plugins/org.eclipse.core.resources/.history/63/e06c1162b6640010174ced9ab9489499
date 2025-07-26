@@ -1,0 +1,5 @@
+package com.courseapp.service;
+
+public class FrontEnd implements ICourse {
+
+}

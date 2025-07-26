@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Indian.java&apos; to &apos;PracticeSession/src/com.hotelapp.service&apos;&#x0D;&#x0A;- Original project: &apos;PracticeSession&apos;&#x0D;&#x0A;- Destination element: &apos;PracticeSession/src/com.hotelapp.service&apos;&#x0D;&#x0A;- Original element: &apos;com.hotelapp.service.Indian.java&apos;" description="Copy compilation unit" destination="/src&lt;com.hotelapp.service" element1="/src&lt;com.hotelapp.service{Indian.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1752937320478" units="1" version="1.0"/>
+</session>

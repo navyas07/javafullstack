@@ -1,0 +1,18 @@
+package com.training.basics;
+
+public class Switch {
+	public static void main(String[] args) {
+		
+		String weather="rainy";
+		
+		switch(weather.toUpperCase()) {
+		case "RAINY ":  
+			System.out.println("Drink tea");
+			System.out.println("Enjoy rain");
+			
+			
+		}
+		
+	}
+
+}

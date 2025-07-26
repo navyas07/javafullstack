@@ -1,0 +1,5 @@
+package com.marks.service;
+
+public class Grades implements IMarks {
+
+}

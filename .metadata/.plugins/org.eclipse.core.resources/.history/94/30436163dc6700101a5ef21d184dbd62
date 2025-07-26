@@ -1,0 +1,29 @@
+package com.training.basics;
+
+public class Switch {
+	public static void main(String[] args) {
+
+		String climate = "RAINY";
+
+		switch (climate) {
+		case "RAINY ":
+			System.out.println("Drink tea");
+			System.out.println("Enjoy rain");
+			break;
+
+		case "WINTER":
+			System.out.println("hot coffee");
+			System.out.println("drink soup");
+			break;
+
+		case "SUMMER":
+			System.out.println("Drink water");
+			System.out.println("ICEEEE CREAMMMM");
+			break;
+		default:
+			System.out.println("Incorrect choice");
+		}
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.marks.service;
+
+public class IMarks {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

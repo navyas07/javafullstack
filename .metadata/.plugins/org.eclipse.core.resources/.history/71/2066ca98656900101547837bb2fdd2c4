@@ -1,0 +1,9 @@
+package com.marks.service;
+
+public class Grades implements IGrades {
+
+	public String[] showMarks() {
+		return new String[] {"A","B","C","D"};
+	}
+
+}
