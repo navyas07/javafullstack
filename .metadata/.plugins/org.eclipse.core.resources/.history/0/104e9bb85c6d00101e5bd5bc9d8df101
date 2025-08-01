@@ -1,0 +1,15 @@
+package com.training.question2;
+
+public class Customer {
+
+	public static void main(String[] args) {
+
+		PaymentOptions payment=new PaymentOptions();
+		payment.pay(200.00);
+		payment.pay(1234,321,500.00);
+		payment.pay("navya",400.0);
+		payment.pay("ICIC","navya",600.0);
+		
+	}
+
+}

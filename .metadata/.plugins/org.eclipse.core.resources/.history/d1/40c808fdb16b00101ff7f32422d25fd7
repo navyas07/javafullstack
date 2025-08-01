@@ -1,0 +1,32 @@
+package com.training.basic;
+
+import java.util.Scanner;
+
+public class SmallerScanner {
+
+	public static void main(String[] args) {
+		
+		int[] nums=new int[5];
+		Scanner sc =new Scanner(System.in);
+			System.out.println("Enter the array of numbers");
+			for (int i = 0; i < nums.length; i++) {
+				nums[i]=sc.nextInt();
+			}
+			
+			for(int value:nums)
+				System.out.println(value);
+			
+			System.out.println("The smallest number of the array is "+smallerNumber(nums));
+			
+	}
+	static int smallerNumber(int[] nums) {
+		int smallNumber=nums[0];
+		for(int i=1;i<nums.length;i++) {
+			if(nums[i]<smallNumber) {
+				smallNumber=nums[i];
+				i++;
+			}
+		}
+		return smallNumber;
+	}
+}

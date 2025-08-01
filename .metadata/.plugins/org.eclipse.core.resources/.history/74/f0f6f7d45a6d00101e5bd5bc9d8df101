@@ -1,0 +1,15 @@
+package com.training.question2;
+
+public class PaymentOptions {
+	void pay(double amount) {
+		System.out.println("COD "+amount);
+	}
+		void pay(long card,int cvv,double amount) {
+			System.out.println("Pay using card "+amount);
+	} void pay(String upiId, double amount) {
+		System.out.println("Pay using gpay "+amount);
+	}void pay(String bankName,String userName,double amount){
+		System.out.println("Pay using netBanking "+amount+" for "+userName);
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.training.question2;
+
+public class PaymentOptions {
+	void pay(double amount) {
+		System.out.println("COD "+amount);
+		
+	}
+
+}

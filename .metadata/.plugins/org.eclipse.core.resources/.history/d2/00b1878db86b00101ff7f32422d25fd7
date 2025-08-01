@@ -1,0 +1,20 @@
+package com.training.basic;
+
+public class Even {
+
+	public static void main(String[] args) {
+
+		int []evenNumbers= {32,20,26,41,6};
+//		System.out.println("The even numbers are "+evenNumber(evenNumbers));
+		
+	}
+	static void evenNumber(int[] evenNumbers){
+		
+		for(int i=0;i<evenNumbers.length;i++) {
+			if(evenNumbers[i]%2==0) {
+				System.out.println("The even numbers are "+evenNumbers[i]);
+			}
+		}
+	}
+
+}

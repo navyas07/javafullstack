@@ -15,6 +15,7 @@ public class OneDimentionScanner {
 			
 			for(int value:nums)
 				System.out.println(value);
+			sc.close();
 	}
 
 }

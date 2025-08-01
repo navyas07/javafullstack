@@ -1,0 +1,20 @@
+package com.training.basic;
+
+public class Smaller {
+
+	public static void main(String[] args) {
+		 int [] array= {34,56,98,92,21};
+		 System.out.println("The smallest number of an array is "+smallerNumber(array));
+	}
+		 static int smallerNumber(int []array) {
+			 int smallestNumber=array[0];
+			 for(int i=1;i<array.length;i++) {
+				if(array[i]<smallestNumber) {
+					smallestNumber=array[i];
+					 i++;
+				}
+			 }
+			 
+			return smallestNumber;
+	}
+}
