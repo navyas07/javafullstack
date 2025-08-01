@@ -1,0 +1,12 @@
+package com.training.basic;
+
+public class SmallSecond {
+
+	public static void main(String[] args) {
+
+		
+		int[] array = {5, 4, 3, 2, 1};
+		
+	}
+
+}
