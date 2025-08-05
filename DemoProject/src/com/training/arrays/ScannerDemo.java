@@ -15,6 +15,7 @@ public class ScannerDemo {
 		double salary=sc.nextDouble();
 		System.out.println("salary "+salary);
 
+		sc.close();
 	}
 
 }

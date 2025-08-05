@@ -27,7 +27,7 @@ public class DynamicTwoDimentionalArray {
 			}
 			System.out.println();
 		}
-		
+		sc.close();
 	}
 
 }

@@ -38,6 +38,6 @@ public class IfDemo {
 		}
 
 		System.out.println("Grade is " + grade);
-
+		sc.close();
 	}
 }

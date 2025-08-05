@@ -1,7 +1,0 @@
-package com.marks.service;
-
-public interface IGrades {
-
-	String[] showGrades();
-
-}

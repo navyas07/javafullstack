@@ -1,8 +1,5 @@
 package com.courseapp.service;
 
-import java.util.Arrays;
-import java.util.List;
-
 public class FrontEnd implements ICourse {
 	
 	public String[] showCourses() {
